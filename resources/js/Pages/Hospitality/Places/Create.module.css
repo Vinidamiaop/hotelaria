@@ -1,0 +1,38 @@
+.placeForm {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-content: center;*/
+    /*background: red;*/
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.formRow {
+    display:flex;
+    /*justify-content: center;*/
+    align-items: center;
+    margin: 10px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+}
+
+.formSubmitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: #7C25FF;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.formSubmitButton:hover {
+    background: #5A1FCC;
+}

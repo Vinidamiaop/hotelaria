@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotelCard,
+.hotelCard__novo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /*border: 1px solid #7C25FF;*/
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 170px;
+    height: 200px;
+    cursor: pointer;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.hotelCard__place {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 5px;
+}
+
+.hotelCard:hover,
+.hotelCard__novo:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.hotelCard__novo {
+    border: 1px dashed #7C25FF;
+}
+
+.hotelCard__novo__icon {
+    border: 1px solid #7C25FF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.hotelCard__novo__icon svg {
+    font-size: 2em;
+    color: #7C25FF;
+}
+
+.hotelCard__place__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 80px;
+    overflow: hidden;
+}
+
+.hotelCard__place__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 3;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.hotelCard__place__info h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hotelCard__place__info p {
+    margin: 0;
+}
+
+.hotelCard__place__footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+
+}
+
+.hotelCard__place__footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /*background: #7C25FF;*/
+    padding: 5px 20px;
+    color: #7C25FF;
+    border-radius: 4px;
+    font-size: 0.9em;
+}

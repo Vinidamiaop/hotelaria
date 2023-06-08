@@ -1,0 +1,36 @@
+.mainHeader {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    width: 10%;
+}
+
+.painel {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.painel p {
+    margin-right: 10px;
+}
+.btnPainel {
+    color: #fff;
+    background-color: #7C25FF;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnPainel:hover {
+    background-color: #5A1FCC;
+}
+
